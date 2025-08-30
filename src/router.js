@@ -8,6 +8,7 @@ import Landscaping from './views/services/Landscaping.vue'
 
 const routes = [
   { path: '/', component: Home },
+   { path: '/hdlandscaping', component: Home },
   { path: '/home', component: Home },
   { path: '/about', component: About },
   { path: '/contact', component: Contact },

@@ -1,35 +1,60 @@
 <template>
   <section class="contact">
     <h2>Contact Us</h2>
-    <p class="intro">Have a question or want a free quote? Send us a message and we’ll get back to you promptly.</p>
+    <p class="intro">
+      Have a question or want a free quote? Send us a message and we’ll get back to you promptly.
+    </p>
     <form @submit.prevent="submitForm" class="contact-form">
       <input v-model="name" type="text" placeholder="Your Name" required />
       <input v-model="email" type="email" placeholder="Your Email" required />
       <textarea v-model="message" placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
+    <p v-if="statusMessage" class="status">{{ statusMessage }}</p>
   </section>
 </template>
 
 <script>
+import emailjs from "emailjs-com";
+
 export default {
   data() {
     return {
-      name: '',
-      email: '',
-      message: ''
-    }
+      name: "",
+      email: "",
+      message: "",
+      statusMessage: ""
+    };
   },
   methods: {
     submitForm() {
-      alert(`Thanks, ${this.name}! We'll get back to you soon.`)
-      this.name = ''
-      this.email = ''
-      this.message = ''
+      const templateParams = {
+        from_name: this.name,
+        from_email: this.email,
+        message: this.message
+      };
+
+      emailjs
+        .send(
+          "service_rjognxk",   // replace with your service ID
+          "template_hui2mln",  // replace with your template ID
+          templateParams,
+          "Oyi-hM_FkSjiQUO-C"    // replace with your public key
+        )
+        .then(() => {
+          this.statusMessage = "✅ Message sent! We'll get back to you soon.";
+          this.name = "";
+          this.email = "";
+          this.message = "";
+        })
+        .catch(() => {
+          this.statusMessage = "❌ Oops! Something went wrong. Please try again later.";
+        });
     }
   }
-}
+};
 </script>
+
 
 <style scoped>
 .contact {
