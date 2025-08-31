@@ -44,9 +44,9 @@ export default {
   data() {
     return {
       patioProjects: [
-        { title: "Jake & Jen's Garden", image: '/hdlandscaping/Jake 7.jpg', slug: 'jake-jens-garden' },
-        { title: "Steve's Garden", image: '/hdlandscaping/Patio 11.jpg', slug: 'steves-garden' },
-        { title: "Sally's Patio", image: '/hdlandscaping/Patio 2.jpg', slug: 'sallys-patio' },
+        { title: "Jake & Jen's Garden", image: '/hdlandscaping/Jake7.jpg', slug: 'jake-jens-garden' },
+        { title: "Steve's Garden", image: '/hdlandscaping/Patio11.jpg', slug: 'steves-garden' },
+        { title: "Sally's Patio", image: '/hdlandscaping/Patio2.jpg', slug: 'sallys-patio' },
       ]
     };
   }

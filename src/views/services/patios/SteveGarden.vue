@@ -47,7 +47,7 @@ export default {
         { src: '/hdlandscaping/Steves-before.jpg', alt: 'Garden before patio', caption: 'Before: space outside the French doors' },
         { src: '/hdlandscaping/Steves-foundation.jpg', alt: 'Foundation preparation', caption: 'Preparing the foundation' },
         { src: '/hdlandscaping/Steves-patio.jpg', alt: 'Patio installation', caption: 'Patio being laid in place' },
-        { src: '/hdlandscaping/Patio 11.jpg', alt: 'Finished patio', caption: 'Completed patio outside the French doors' },
+        { src: '/hdlandscaping/Patio11.jpg', alt: 'Finished patio', caption: 'Completed patio outside the French doors' },
       ]
     };
   }
@@ -61,7 +61,7 @@ export default {
 
 /* Hero */
 .hero {
-  background: url('/hdlandscaping/Patio 11.jpg') no-repeat center center/cover !important;
+  background: url('/hdlandscaping/Patio11.jpg') no-repeat center center/cover !important;
   height: 60vh;
   display: flex;
   justify-content: center;

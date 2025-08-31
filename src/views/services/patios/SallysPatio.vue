@@ -47,7 +47,7 @@ export default {
         { src: '/hdlandscaping/Sally-before.jpg', alt: 'Garden before patio', caption: 'Before: area ready for transformation' },
         { src: '/hdlandscaping/Sally-foundation.jpg', alt: 'Foundation preparation', caption: 'Preparing the base for the patio' },
         { src: '/hdlandscaping/Sally-patio.jpg', alt: 'Patio installation', caption: 'Laying down the patio' },
-        { src: '/hdlandscaping/Sally-finished.jpg', alt: 'Completed patio', caption: 'The finished patio space' },
+        { src: '/hdlandscaping/Patio2.jpg', alt: 'Completed patio', caption: 'The finished patio space' },
       ]
     };
   }
@@ -61,7 +61,7 @@ export default {
 
 /* Hero */
 .hero {
-  background: url('/hdlandscaping/Patio 2.jpg') no-repeat center center/cover !important;
+  background: url('/hdlandscaping/Patio2.jpg') no-repeat center center/cover !important;
   height: 60vh;
   display: flex;
   justify-content: center;

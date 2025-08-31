@@ -47,7 +47,7 @@ export default {
         { src: '/hdlandscaping/ModernFencing1.jpg', alt: 'Fence layout', caption: 'Planning and layout of the modern fence' },
         { src: '/hdlandscaping/ModernFencing2.jpg', alt: 'Fence posts', caption: 'Installing sturdy posts' },
         { src: '/hdlandscaping/ModernFencing3.jpg', alt: 'Fence panels', caption: 'Attaching panels for a sleek look' },
-        { src: '/hdlandscaping/Patio 12.jpg', alt: 'Finished fence', caption: 'Completed modern fence' },
+        { src: '/hdlandscaping/Patio12.jpg', alt: 'Finished fence', caption: 'Completed modern fence' },
       ]
     };
   }
@@ -60,7 +60,7 @@ export default {
 }
 
 .hero {
-  background: url('/hdlandscaping/Patio 12.jpg') no-repeat center center/cover !important;
+  background: url('/hdlandscaping/Patio12.jpg') no-repeat center center/cover !important;
   height: 60vh;
   display: flex;
   justify-content: center;

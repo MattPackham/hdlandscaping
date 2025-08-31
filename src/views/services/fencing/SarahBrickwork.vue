@@ -47,8 +47,8 @@ export default {
         { src: '/hdlandscaping/Patio10-before.jpg', alt: 'Garden before work', caption: 'Before: uneven garden space' },
         { src: '/hdlandscaping/Patio10-level.jpg', alt: 'Ground leveling', caption: 'Levelling the ground' },
         { src: '/hdlandscaping/Patio10-brickwork.jpg', alt: 'Brickwork patio', caption: 'Brickwork patio installation' },
-        { src: '/hdlandscaping/Patio 10.jpg', alt: 'Garden feature', caption: 'Added custom garden features' },
-        { src: '/hdlandscaping/Patio 7.jpg', alt: 'Finished patio', caption: 'Completed patio and garden feature' },
+        { src: '/hdlandscaping/Patio10.jpg', alt: 'Garden feature', caption: 'Added custom garden features' },
+        { src: '/hdlandscaping/Patio7.jpg', alt: 'Finished patio', caption: 'Completed patio and garden feature' },
       ]
     };
   }
@@ -61,7 +61,7 @@ export default {
 }
 
 .hero {
-  background: url('/hdlandscaping/Patio 7.jpg') no-repeat center center/cover !important;
+  background: url('/hdlandscaping/Patio7.jpg') no-repeat center center/cover !important;
   height: 60vh;
   display: flex;
   justify-content: center;

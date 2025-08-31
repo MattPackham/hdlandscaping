@@ -44,8 +44,8 @@ export default {
   data() {
     return {
       landscapingProjects: [
-        { title: 'Jake & Jen\'s Modern Garden', image: '/hdlandscaping/Jake 5.jpg', slug: 'jake-jens-modern-garden' },
-        { title: 'Sarah\'s Garden Feature', image: '/hdlandscaping/Patio 10.jpg', slug: 'sarahs-garden-feature' },
+        { title: 'Jake & Jen\'s Modern Garden', image: '/hdlandscaping/Jake5.jpg', slug: 'jake-jens-modern-garden' },
+        { title: 'Sarah\'s Garden Feature', image: '/hdlandscaping/Patio10.jpg', slug: 'sarahs-garden-feature' },
         { title: 'Dave\'s Custom Flowerbed', image: '/hdlandscaping/LandScaping1.jpg', slug: 'daves-custom-flowerbed' },
       ]
     }; 
