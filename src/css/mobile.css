@@ -1,0 +1,80 @@
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  /* Hero adjustments */
+  .hero {
+    height: 40vh; /* smaller hero on mobile */
+    padding: 0 10px;
+  }
+
+  .hero-content {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  /* Services Section */
+  .services {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+  }
+
+  .service-card {
+    width: 90%;  /* take most of the container */
+    max-width: 400px; /* optional, keeps cards from getting too wide */
+    margin-bottom: 20px;
+  }
+
+  .service-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .service-card p {
+    font-size: 0.95rem;
+  }
+
+  .service-icon {
+    max-height: 150px;
+    margin-bottom: 15px;
+  }
+
+  /* Gallery */
+  .gallery-grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .gallery-item {
+    width: 100%;
+  }
+
+  .gallery-item img {
+    max-height: 150px;
+  }
+
+  /* Info Section */
+  .info-section {
+    padding: 30px 10px;
+  }
+
+  .info-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .info-section ul {
+    font-size: 1rem;
+  }
+}
