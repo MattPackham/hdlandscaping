@@ -48,7 +48,7 @@ export default {
         { src: '/hdlandscaping/Landscaping3-level.jpg', alt: 'Ground leveling', caption: 'Levelling and preparing the ground' },
         { src: '/hdlandscaping/Landscaping3-pathway.jpg', alt: 'Pathway brickwork', caption: 'Brickwork pathway installation' },
         { src: '/hdlandscaping/Landscaping3-steps.jpg', alt: 'Steps installation', caption: 'Constructed elegant steps' },
-        { src: '/hdlandscaping/Landscaping 3.jpg', alt: 'Finished pathway', caption: 'Completed pathway and steps' },
+        { src: '/hdlandscaping/Landscaping3.jpg', alt: 'Finished pathway', caption: 'Completed pathway and steps' },
       ]
     };
   }
@@ -62,7 +62,7 @@ export default {
 }
 
 .hero {
-  background: url('/hdlandscaping/Landscaping 3.jpg') no-repeat center center/cover !important;
+  background: url('/hdlandscaping/Landscaping3.jpg') no-repeat center center/cover !important;
   height: 60vh;
   display: flex;
   justify-content: center;

@@ -46,9 +46,9 @@ export default {
       projectImages: [
         { src: '/hdlandscaping/Project1-before.jpg', alt: 'Garden before work', caption: 'Before: Uneven garden space' },
         { src: '/hdlandscaping/Project1-level.jpg', alt: 'Garden leveling', caption: 'Levelling the ground' },
-        { src: '/hdlandscaping/Jake Patio.jpg', alt: 'Patio installation', caption: 'Patio installation in progress' },
-        { src: '/hdlandscaping/Jake Patio 2.jpg', alt: 'Planters installation', caption: 'Custom planters added' },
-        { src: '/hdlandscaping/Jake 6.jpg', alt: 'New grass lawn', caption: 'Freshly seeded grass lawn' },
+        { src: '/hdlandscaping/JakePatio.jpg', alt: 'Patio installation', caption: 'Patio installation in progress' },
+        { src: '/hdlandscaping/JakePatio2.jpg', alt: 'Planters installation', caption: 'Custom planters added' },
+        { src: '/hdlandscaping/Jake6.jpg', alt: 'New grass lawn', caption: 'Freshly seeded grass lawn' },
       ]
     };
   }

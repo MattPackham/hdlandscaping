@@ -44,9 +44,9 @@ export default {
   data() {
     return {
       fencingProjects: [
-        { title: 'Modern Wooden Fencing', image: '/hdlandscaping/Patio 12.jpg' , slug: 'modern-wooden-fencing' },
-        { title: 'Sarah\'s Brickwork', image: '/hdlandscaping/Patio 10.jpg', slug: 'sarahs-brickwork' },
-        { title: 'Elegant Garden Pathway', image: '/hdlandscaping/Landscaping 3.jpg', slug: 'elegant-garden-pathway' },
+        { title: 'Modern Wooden Fencing', image: '/hdlandscaping/Patio12.jpg' , slug: 'modern-wooden-fencing' },
+        { title: 'Sarah\'s Brickwork', image: '/hdlandscaping/Patio10.jpg', slug: 'sarahs-brickwork' },
+        { title: 'Elegant Garden Pathway', image: '/hdlandscaping/Landscaping3.jpg', slug: 'elegant-garden-pathway' },
       ]
     };
   }

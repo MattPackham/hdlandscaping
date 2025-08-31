@@ -33,7 +33,7 @@
       <h3>Meet the Team</h3>
       <div class="team-members">
         <div class="team-member">
-          <img src="/Harry.jpg" alt="Portrait of Harry" />
+          <img src="/public/hdlandscaping/Harry.jpg" alt="Portrait of Harry" />
           <h4>Harry</h4>
           <p>
             Harry brings years of design expertise to every project, 
@@ -43,7 +43,7 @@
           </p>
         </div>
         <div class="team-member">
-          <img src="/Harry.jpg" alt="Portrait of Dan" />
+          <img src="/public/hdlandscaping/Harry.jpg" alt="Portrait of Dan" />
           <h4>Dan</h4>
           <p>
             Dan leads our maintenance and installation teams with a strong 
