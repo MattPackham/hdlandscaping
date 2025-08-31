@@ -33,7 +33,7 @@
       <h3>Meet the Team</h3>
       <div class="team-members">
         <div class="team-member">
-          <img src="/hdlandscaping/Harry.jpg" alt="Portrait of Harry" />
+          <img src="/Harry.jpg" alt="Portrait of Harry" />
           <h4>Harry</h4>
           <p>
             Harry brings years of design expertise to every project, 
@@ -43,7 +43,7 @@
           </p>
         </div>
         <div class="team-member">
-          <img src="/hdlandscaping/Harry.jpg" alt="Portrait of Dan" />
+          <img src="/Harry.jpg" alt="Portrait of Dan" />
           <h4>Dan</h4>
           <p>
             Dan leads our maintenance and installation teams with a strong 
@@ -70,7 +70,7 @@
 .about h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
-  color: #e74c3c; /* red accent */
+  color: #e74c3c;
 }
 
 .about p {
@@ -81,7 +81,7 @@
 .facebook-link {
   display: inline-block;
   color: #fff;
-  background-color: #4267B2; /* Facebook blue */
+  background-color: #4267B2;
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
@@ -91,7 +91,7 @@
 
 .facebook-link:hover {
   background-color: #365899;
-  transform: translateY(-3px);
+  transform: translateY(-1px);
 }
 
 /* Team Section */
