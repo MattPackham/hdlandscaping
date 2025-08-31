@@ -7,8 +7,8 @@
 
     <!-- Contact Info -->
     <div class="contact-info">
-      <p>📞 Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
-      <p>✉️ Email: <a href="mailto:info@hdlandscaping.com">info@hdlandscaping.com</a></p>
+      <p>📞 Phone: <a href="07801269799">07801269799</a></p>
+      <p>✉️ Email: <a href="mailto:hdpatiosandpaving@gmail.com">hdpatiosandpaving@gmail.com</a></p>
         <a 
           href="https://www.facebook.com/YourFacebookPage" 
           target="_blank" 
