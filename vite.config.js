@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: '/hdlandscaping/', // must match your repo name
+  base: '/', // root path for Netlify
   plugins: [vue()]
 })
