@@ -2,17 +2,17 @@
   <nav class="navbar">
     <router-link to="/" class="navname">HD Patios & Paving</router-link>
 
-    <!-- Hamburger menu button for mobile -->
+    <!-- Hamburger for mobile -->
     <button class="nav-toggle" @click="toggleMenu">
       <span></span>
       <span></span>
       <span></span>
     </button>
 
-    <div class="nav-links" :class="{ open: menuOpen }">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/contact">Contact Us</router-link>
+    <div :class="['nav-links', { open: isOpen }]">
+      <router-link to="/" @click.native="closeMenu">Home</router-link>
+      <router-link to="/about" @click.native="closeMenu">About</router-link>
+      <router-link to="/contact" @click.native="closeMenu">Contact Us</router-link>
     </div>
   </nav>
 </template>
@@ -21,18 +21,21 @@
 export default {
   data() {
     return {
-      menuOpen: false,
+      isOpen: false
     };
   },
   methods: {
     toggleMenu() {
-      this.menuOpen = !this.menuOpen;
+      this.isOpen = !this.isOpen;
     },
-  },
+    closeMenu() {
+      this.isOpen = false;
+    }
+  }
 };
 </script>
 
-<style>
+<style scoped>
 .navname {
   color: white;
   font-weight: bold;
@@ -55,13 +58,11 @@ export default {
   position: relative;
 }
 
-/* nav links container */
 .nav-links {
   display: flex;
   gap: 2rem;
 }
 
-/* links styling */
 .nav-links a {
   color: white;
   text-decoration: none;
