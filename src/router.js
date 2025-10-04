@@ -3,39 +3,37 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Contact from './views/Contact.vue'
 import Patios from './views/services/Patios.vue'
-import Fencing from './views/services/Fencing.vue'
+import Brickwork from './views/services/Brickwork.vue'
 import Landscaping from './views/services/Landscaping.vue'
 
-import JakeJenGarden from './views/services/patios/JakeJenGarden.vue'
-import SteveGarden from './views/services/patios/SteveGarden.vue'
-import SallyPatio from './views/services/patios/SallysPatio.vue'
-import ModernFencing from './views/services/fencing/ModernFencing.vue'
-import SarahBrickwork from './views/services/fencing/SarahBrickwork.vue'
-import GardenPathway from './views/services/fencing/GardenPathway.vue'
-import DaveFlowerbed from './views/services/landscaping/DaveFlowerbed.vue'
+import JakeJenPatio from './views/services/patios/JakeJenPatio.vue'
+import JimLisaPatio from './views/services/patios/JimLisaPatio.vue'
+import PavingStones from './views/services/patios/PavingStones.vue'
+import ContemporaryBrickwork from './views/services/brickwork/ContemporaryBrickwork.vue'
+import JackieBrickwork from './views/services/brickwork/JackieBrickwork.vue'
+import JakeJenLandscaping from './views/services/landscaping/JakeJenLandscaping.vue'
+import JackieLandscaping from './views/services/landscaping/JackieLandscaping.vue'
 
 const routes = [
   { path: '/', component: Home },
-   { path: '/hdlandscaping', component: Home },
+  { path: '/hdlandscaping', component: Home },
   { path: '/home', component: Home },
   { path: '/about', component: About },
   { path: '/contact', component: Contact },
   { path: '/services/patios', component: Patios },
-  { path: '/services/fencing', component: Fencing },
+  { path: '/services/brickwork', component: Brickwork },
   { path: '/services/landscaping', component: Landscaping },
 
-  { path: '/services/patios/jake-jens-garden', component: JakeJenGarden },
-  { path: '/services/patios/steves-garden', component: SteveGarden },
-  { path: '/services/patios/sallys-patio', component: SallyPatio },
+  { path: '/services/patios/jake-jens-patio', component: JakeJenPatio },
+  { path: '/services/patios/jim-lisas-patio', component: JimLisaPatio },
+  { path: '/services/patios/paving-stones', component: PavingStones },
 
-  { path: '/services/fencing/modern-wooden-fencing', component: ModernFencing },
-  { path: '/services/fencing/sarahs-brickwork', component: SarahBrickwork },
-  { path: '/services/fencing/elegant-garden-pathway', component: GardenPathway },
+  { path: '/services/brickwork/contemporary-brickwork-wall', component: ContemporaryBrickwork },
+  { path: '/services/brickwork/jackies-brickwork', component: JackieBrickwork },
 
-  { path: '/services/landscaping/jake-jens-modern-garden', component: JakeJenGarden },
-  { path: '/services/landscaping/sarahs-garden-feature', component: SarahBrickwork },
-  { path: '/services/landscaping/daves-custom-flowerbed', component: DaveFlowerbed },
 
+  { path: '/services/landscaping/jake-jens-landscaping', component: JakeJenLandscaping },
+  { path: '/services/landscaping/jackie-landscaping', component: JackieLandscaping },
 ]
 
 export default createRouter({

@@ -1,10 +1,10 @@
 <template>
-  <section class="modern-fencing-page">
+  <section class="modern-brickwork-page">
     <!-- Hero Section -->
     <div class="hero">
       <div class="hero-content">
-        <h1>Modern Fencing Project</h1>
-        <p>Expertly designed and installed modern fencing to enhance both security and style for your property.</p>
+        <h1>Modern Brickwork Project</h1>
+        <p>Expertly designed and installed modern brickwork to enhance both security and style for your property.</p>
         <router-link to="/contact" class="cta-button">Start Your Project</router-link>
       </div>
     </div>
@@ -29,7 +29,7 @@
       <h2>How We Built This Modern Fence</h2>
       <ul>
         <li>Planned layout to match the property style and ensure privacy</li>
-        <li>Selected high-quality, durable fencing materials</li>
+        <li>Selected high-quality, durable brickwork materials</li>
         <li>Installed posts and panels with precision and care</li>
         <li>Applied finishing touches to enhance aesthetics</li>
         <li>Ensured long-lasting stability and low maintenance</li>
@@ -40,13 +40,13 @@
 
 <script>
 export default {
-  name: 'ModernFencing',
+  name: 'ModernBrickwork',
   data() {
     return {
       projectImages: [
-        { src: '/hdlandscaping/ModernFencing1.jpg', alt: 'Fence layout', caption: 'Planning and layout of the modern fence' },
-        { src: '/hdlandscaping/ModernFencing2.jpg', alt: 'Fence posts', caption: 'Installing sturdy posts' },
-        { src: '/hdlandscaping/ModernFencing3.jpg', alt: 'Fence panels', caption: 'Attaching panels for a sleek look' },
+        { src: '/hdlandscaping/ModernBrickwork1.jpg', alt: 'Fence layout', caption: 'Planning and layout of the modern fence' },
+        { src: '/hdlandscaping/ModernBrickwork2.jpg', alt: 'Fence posts', caption: 'Installing sturdy posts' },
+        { src: '/hdlandscaping/ModernBrickwork3.jpg', alt: 'Fence panels', caption: 'Attaching panels for a sleek look' },
         { src: '/hdlandscaping/Patio12.jpg', alt: 'Finished fence', caption: 'Completed modern fence' },
       ]
     };
@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style scoped>
-.modern-fencing-page {
+.modern-brickwork-page {
   font-family: 'Arial', sans-serif;
 }
 

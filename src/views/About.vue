@@ -43,10 +43,10 @@
           </p>
         </div>
         <div class="team-member">
-          <img src="/public/hdlandscaping/Harry.jpg" alt="Portrait of Dan" />
-          <h4>Dan</h4>
+          <img src="/public/hdlandscaping/Harry.jpg" alt="Portrait of Dean" />
+          <h4>Dean</h4>
           <p>
-            Dan leads our maintenance and installation teams with a strong 
+            Dean leads our maintenance and installation teams with a strong 
             commitment to quality and care. He makes sure each project is 
             delivered on time and with lasting results.
           </p>

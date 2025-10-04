@@ -27,7 +27,7 @@
 
     <!-- Additional Info Section -->
     <div class="info-section">
-      <h2>Why Choose HD Fencings & Pavings for Landscaping?</h2>
+      <h2>Why Choose HD Patios & Pavings for Landscaping?</h2>
       <ul>
         <li>Custom landscape designs for your property</li>
         <li>Expert planting and hardscaping</li>
@@ -44,9 +44,8 @@ export default {
   data() {
     return {
       landscapingProjects: [
-        { title: 'Jake & Jen\'s Modern Garden', image: '/hdlandscaping/Jake5.jpg', slug: 'jake-jens-modern-garden' },
-        { title: 'Sarah\'s Garden Feature', image: '/hdlandscaping/Patio10.jpg', slug: 'sarahs-garden-feature' },
-        { title: 'Dave\'s Custom Flowerbed', image: '/hdlandscaping/LandScaping1.jpg', slug: 'daves-custom-flowerbed' },
+        { title: 'Jake & Jen\'s Modern Garden', image: '/hdlandscaping/Jake and Jen/Jake6.jpg', slug: 'jake-jens-landscaping' },
+        { title: 'Jackie\'s Flowerbed & Steps', image: '/hdlandscaping/Jackie/Jackie Flowerbed and Pathway.jpg', slug: 'jackie-landscaping' },
       ]
     }; 
   }
