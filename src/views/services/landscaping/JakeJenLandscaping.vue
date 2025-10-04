@@ -3,8 +3,8 @@
     <!-- Hero Section -->
     <div class="hero">
       <div class="hero-content">
-        <h1>Garden Transformation Project</h1>
-        <p>A complete makeover: leveling the garden, landscaping, patio installation, stylish planters, and a fresh grass lawn.</p>
+        <h1>Jake & Jens Garden</h1>
+        <p>Jake & Jen wanted a renewed outdoor space to enjoy with their family. This involved a complete renvovation of the garden from the ground up.</p>
         <router-link to="/contact" class="cta-button">Start Your Project</router-link>
       </div>
     </div>
@@ -44,11 +44,11 @@ export default {
   data() {
     return {
       projectImages: [
-        { src: '/hdlandscaping/Project1-before.jpg', alt: 'Garden before work', caption: 'Before: Uneven garden space' },
-        { src: '/hdlandscaping/Project1-level.jpg', alt: 'Garden leveling', caption: 'Levelling the ground' },
-        { src: '/hdlandscaping/JakePatio.jpg', alt: 'Patio installation', caption: 'Patio installation in progress' },
-        { src: '/hdlandscaping/JakePatio2.jpg', alt: 'Planters installation', caption: 'Custom planters added' },
-        { src: '/hdlandscaping/Jake6.jpg', alt: 'New grass lawn', caption: 'Freshly seeded grass lawn' },
+        { src: '/hdlandscaping/Jake and Jen/Landscaping Birdseye.jpg', alt: 'Starting the project', caption: 'Starting the landscaping' },
+        { src: '/hdlandscaping/Jake and Jen/Landscaping Birdseye2.jpg', alt: 'Starting the project', caption: 'Creating room for the new planters' },
+        { src: '/hdlandscaping/Jake and Jen/Harry Landscaping.jpg', alt: 'Installing the timber frames', caption: 'Installing the timber frames' },
+        { src: '/hdlandscaping/Jake and Jen/Installing Flowerbed.jpg', alt: 'Flowerbed Timbers Installed', caption: 'Custom planters added' },
+        { src: '/hdlandscaping/Jake and Jen/Jake3.jpg', alt: 'New grass lawn', caption: 'Freshly seeded grass lawn with flowers planted' },
       ]
     };
   }

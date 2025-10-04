@@ -1,9 +1,9 @@
 <template>
-  <section class="sarah-patio-page">
+  <section class="jackie-patio-page">
     <!-- Hero Section -->
     <div class="hero">
       <div class="hero-content">
-        <h1>Sarah's Brickwork Patio & Garden Feature</h1>
+        <h1>Jackie's Brickwork Patio & Garden Feature</h1>
         <p>Beautifully crafted brickwork patio and garden features to enhance outdoor living and visual appeal.</p>
         <router-link to="/contact" class="cta-button">Start Your Project</router-link>
       </div>
@@ -26,7 +26,7 @@
 
     <!-- Project Story Section -->
     <div class="info-section">
-      <h2>How We Created Sarah's Patio & Garden Feature</h2>
+      <h2>How We Created Jackie's Patio & Garden Feature</h2>
       <ul>
         <li>Prepared the garden area and leveled the ground</li>
         <li>Laid a durable and visually striking brickwork patio</li>
@@ -40,15 +40,15 @@
 
 <script>
 export default {
-  name: 'SarahPatio',
+  name: 'JackiePatio',
   data() {
     return {
       projectImages: [
-        { src: '/hdlandscaping/Patio10-before.jpg', alt: 'Garden before work', caption: 'Before: uneven garden space' },
-        { src: '/hdlandscaping/Patio10-level.jpg', alt: 'Ground leveling', caption: 'Levelling the ground' },
-        { src: '/hdlandscaping/Patio10-brickwork.jpg', alt: 'Brickwork patio', caption: 'Brickwork patio installation' },
-        { src: '/hdlandscaping/Patio10.jpg', alt: 'Garden feature', caption: 'Added custom garden features' },
-        { src: '/hdlandscaping/Patio7.jpg', alt: 'Finished patio', caption: 'Completed patio and garden feature' },
+        { src: '/hdlandscaping/Jackie/Patio10-before.jpg', alt: 'Garden before work', caption: 'Before: uneven garden space' },
+        { src: '/hdlandscaping/Jackie/Patio10-level.jpg', alt: 'Ground leveling', caption: 'Levelling the ground' },
+        { src: '/hdlandscaping/Jackie/Patio10-brickwork.jpg', alt: 'Brickwork patio', caption: 'Brickwork patio installation' },
+        { src: '/hdlandscaping/Jackie/Patio10.jpg', alt: 'Garden feature', caption: 'Added custom garden features' },
+        { src: '/hdlandscaping/Jackie/Patio7.jpg', alt: 'Finished patio', caption: 'Completed patio and garden feature' },
       ]
     };
   }
@@ -56,7 +56,7 @@ export default {
 </script>
 <style scoped>
 
-.modern-fencing-page {
+.modern-brickwork-page {
   font-family: 'Arial', sans-serif;
 }
 

@@ -1,10 +1,10 @@
 <template>
-  <section class="steves-garden-page">
+  <section class="jim-lisa-patio-page">
     <!-- Hero Section -->
     <div class="hero">
       <div class="hero-content">
-        <h1>Steve's Garden Project</h1>
-        <p>A bespoke patio installed right outside the French doors, creating the perfect link between indoor and outdoor living.</p>
+        <h1>Jim & Lisa's Patio Project</h1>
+        <p>A bespoke patio installed right outside their French doors. Jim & Lisa's new patio created the perfect link between indoor and outdoor living. Together with a new seating area feature perfect for eating outside.</p>
         <router-link to="/contact" class="cta-button">Start Your Project</router-link>
       </div>
     </div>
@@ -26,7 +26,7 @@
 
     <!-- Project Story Section -->
     <div class="info-section">
-      <h2>How We Transformed Steve's Garden</h2>
+      <h2>How We Transformed 's Garden</h2>
       <ul>
         <li>Prepared the area directly outside the French doors</li>
         <li>Laid a solid foundation for durability</li>
@@ -40,14 +40,14 @@
 
 <script>
 export default {
-  name: 'StevesGarden',
+  name: 'JimLisaPatio',
   data() {
     return {
       projectImages: [
-        { src: '/hdlandscaping/Steves-before.jpg', alt: 'Garden before patio', caption: 'Before: space outside the French doors' },
-        { src: '/hdlandscaping/Steves-foundation.jpg', alt: 'Foundation preparation', caption: 'Preparing the foundation' },
-        { src: '/hdlandscaping/Steves-patio.jpg', alt: 'Patio installation', caption: 'Patio being laid in place' },
-        { src: '/hdlandscaping/Patio11.jpg', alt: 'Finished patio', caption: 'Completed patio outside the French doors' },
+        { src: '/hdlandscaping/Jim and Lisa/Grey Paving 2.jpg', alt: 'Alley Patio', caption: 'Installed the new patio starting at the garden gate' },
+        { src: '/hdlandscaping/Jim and Lisa/Grey Paving.jpg', alt: 'Patio Continued', caption: 'Continuing the patio towards the French doors' },
+        { src: '/hdlandscaping/Jim and Lisa/Patio2.jpg', alt: 'Patio installation', caption: 'Adding the new step, and seating area' },
+        { src: '/hdlandscaping/Jim and Lisa/JimLisaPatio.jpg', alt: 'Finished patio', caption: 'Completed patio outside the French doors' },
       ]
     };
   }
@@ -55,13 +55,13 @@ export default {
 </script>
 
 <style scoped>
-.steves-garden-page {
+.jim-lisa-patio-page {
   font-family: 'Arial', sans-serif;
 }
 
 /* Hero */
 .hero {
-  background: url('/hdlandscaping/Patio11.jpg') no-repeat center center/cover !important;
+  background: url('/hdlandscaping/Jim and Lisa/JimLisaPatio.jpg') no-repeat center center/cover !important;
   height: 60vh;
   display: flex;
   justify-content: center;

@@ -3,7 +3,7 @@
     <div class="hero">
       <div class="hero-content">
         <div>
-          <h1>HD Patio & Paving</h1>
+          <h1>HD Patios & Paving</h1>
           <p>Transforming Outdoor Spaces with Precision and Care</p>
         </div>
         <div>
@@ -33,14 +33,14 @@ export default {
     return {
       services: [
         {
-          title: 'Patios & Decking',
-          description: 'Create beautiful outdoor spaces with our patio and decking solutions.',
+          title: 'Patios & Paving',
+          description: 'Create beautiful outdoor spaces with our patio and paving solutions.',
           link: '/services/patios',
         },
         {
-          title: 'Fencing & Brickwork',
-          description: 'Enhance your curb appeal with professionally installed fencing, slabwork or brickwork.',
-          link: '/services/fencing',
+          title: 'Stonework & Brickwork',
+          description: 'Enhance your garden appeal with professionally installed slabwork, stonework or brickwork.',
+          link: '/services/brickwork',
         },
         {
           title: 'Garden Makeovers',
