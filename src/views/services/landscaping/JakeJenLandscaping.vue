@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <div class="hero">
       <div class="hero-content">
-        <h1>Jake & Jens Garden</h1>
+        <h1>Jake & Jen's Garden</h1>
         <p>Jake & Jen wanted a renewed outdoor space to enjoy with their family. This involved a complete renvovation of the garden from the ground up.</p>
         <router-link to="/contact" class="cta-button">Start Your Project</router-link>
       </div>
