@@ -9,14 +9,14 @@
     <div class="contact-info">
       <p>📞 Phone: <a href="tel:07801269799">07801269799</a></p>
       <p>✉️ Email: <a href="mailto:hdpatiosandpaving@gmail.com">hdpatiosandpaving@gmail.com</a></p>
-        <a 
+        <!-- <a 
           href="https://www.facebook.com/YourFacebookPage" 
           target="_blank" 
           rel="noopener noreferrer"
           class="facebook-link"
         >
           Contact us on Facebook
-        </a>
+        </a> -->
 
     </div>
        

@@ -1,8 +1,16 @@
 <template>
+ <section class="landing">
+  <div class="hero">
+   <!-- <div class="hero-content">
+    With over 15 years of experience HD Patios and Paving provides you quality, bespoke, and premium outdoor spaces.
+    </div> -->
+  </div>
+  </section>
   <section class="about">
-    <h2>About Us</h2>
+    <div>
+      <h2>About Us</h2>
     <p>
-      At <strong>HD Landscaping</strong>, we believe your outdoor space should feel 
+      At <strong>HD Patios and Paving</strong>, we believe your outdoor space should feel 
       like an extension of your home. For more than 15 years, we’ve been helping 
       homeowners and businesses bring their landscaping visions to life with a 
       perfect balance of creativity, functionality, and care.
@@ -13,11 +21,11 @@
       to make it happen. We take pride in our attention to detail, reliable 
       service, and the long-lasting relationships we build with our clients.
     </p>
-    <p>
+    <!-- <p>
       Want to see what we’ve been working on?  
       Visit our Facebook page to explore some of our latest projects and get inspired!
-    </p>
-    <p>
+    </p> -->
+    <!-- <p>
       <a 
         href="https://www.facebook.com/YourFacebookPage" 
         target="_blank" 
@@ -26,10 +34,10 @@
       >
         View Our Work on Facebook
       </a>
-    </p>
+    </p> -->
 
     <!-- Meet the Team -->
-    <div class="team">
+    <!-- <div class="team">
       <h3>Meet the Team</h3>
       <div class="team-members">
         <div class="team-member">
@@ -51,8 +59,9 @@
             delivered on time and with lasting results.
           </p>
         </div>
+      </div> 
+    </div>-->
       </div>
-    </div>
   </section>
 </template>
 
