@@ -13,6 +13,7 @@ import ContemporaryBrickwork from './views/services/brickwork/ContemporaryBrickw
 import JackieBrickwork from './views/services/brickwork/JackieBrickwork.vue'
 import JakeJenLandscaping from './views/services/landscaping/JakeJenLandscaping.vue'
 import JackieLandscaping from './views/services/landscaping/JackieLandscaping.vue'
+import RogerPatio from './views/services/patios/RogerPatio.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -27,10 +28,10 @@ const routes = [
   { path: '/services/patios/jake-jens-patio', component: JakeJenPatio },
   { path: '/services/patios/jim-lisas-patio', component: JimLisaPatio },
   { path: '/services/patios/paving-stones', component: PavingStones },
+  { path: '/services/patios/roger-patio', component: RogerPatio },
+  { path: '/services/patios/jackies-brickwork', component: JackieBrickwork },
 
   { path: '/services/brickwork/contemporary-brickwork-wall', component: ContemporaryBrickwork },
-  { path: '/services/brickwork/jackies-brickwork', component: JackieBrickwork },
-
 
   { path: '/services/landscaping/jake-jens-landscaping', component: JakeJenLandscaping },
   { path: '/services/landscaping/jackie-landscaping', component: JackieLandscaping },

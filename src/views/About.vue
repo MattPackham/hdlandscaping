@@ -1,9 +1,10 @@
 <template>
  <section class="landing">
   <div class="hero">
-   <!-- <div class="hero-content">
-    With over 15 years of experience HD Patios and Paving provides you quality, bespoke, and premium outdoor spaces.
-    </div> -->
+   <div class="hero-content">
+     <!-- <h1>About Us</h1> -->
+      <p>Get to know more about Harry and Dean at HD Patios and Paving!</p>
+    </div>
   </div>
   </section>
   <section class="about">
@@ -69,7 +70,6 @@
 .about {
   max-width: 900px;
   margin: 0 auto;
-  padding: 3rem 2rem;
   font-family: 'Arial', sans-serif;
   line-height: 1.7;
   color: #333;
@@ -149,4 +149,16 @@
   font-size: 1rem;
   color: #555;
 }
+
+.hero {
+  background: url('/hdlandscaping/Jake and Jen/Jake7.jpg') no-repeat center center/cover !important;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+}
+
 </style>

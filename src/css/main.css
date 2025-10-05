@@ -54,9 +54,9 @@
 /* Services */
 .services {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 50px 20px;
-  gap: 20px;
+  gap: 200px;
 }
 
 .service-card {
@@ -172,11 +172,11 @@
 
 .services {
   display: flex;
-  justify-content: space-around;
-  gap: 20px;
+  justify-content: center;
   padding: 50px 20px;
-  flex-wrap: wrap;
+  gap: 200px;
 }
+
 
 .service-card {
   display: block; /* ensures the router-link behaves like a card */
