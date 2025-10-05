@@ -18,7 +18,7 @@
     </p>
     <p>
       Whether you’re looking for a complete landscape design, seasonal 
-      maintenance, or a fresh update to your yard, our dedicated team is here 
+      maintenance, or a fresh update to your garden, our dedicated team is here 
       to make it happen. We take pride in our attention to detail, reliable 
       service, and the long-lasting relationships we build with our clients.
     </p>
