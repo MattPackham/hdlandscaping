@@ -26,7 +26,7 @@
 
     <!-- Project Story Section -->
     <div class="info-section">
-      <h2>How We Transformed 's Garden</h2>
+      <h2>How We Transformed This Garden</h2>
       <ul>
         <li>Prepared the area directly outside the French doors</li>
         <li>Laid a solid foundation for durability</li>
