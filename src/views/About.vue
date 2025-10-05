@@ -202,6 +202,10 @@
 
 /* 📱 Very small screens */
 @media (max-width: 480px) {
+
+  .about {
+    text-align: center;
+  }
   .about h2 {
     font-size: 1.75rem;
   }

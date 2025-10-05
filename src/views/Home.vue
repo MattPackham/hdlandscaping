@@ -54,5 +54,34 @@ export default {
 </script>
 
 <style scoped>
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .landing {
+    min-height: 100vh; /* Make the section fill the viewport */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero {
+    flex: 1; /* Take remaining space to push services down */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
 
 </style>
