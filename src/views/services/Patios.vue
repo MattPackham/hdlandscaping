@@ -46,6 +46,8 @@ export default {
       patioProjects: [
         { title: "Jake & Jen's Patio", image: '/hdlandscaping/Jake and Jen/Jake7.jpg', slug: 'jake-jens-patio' },
         { title: "Jim and Lisa's Garden", image: '/hdlandscaping/Jim and Lisa/JimLisaPatio.jpg', slug: 'jim-lisas-patio' },
+        { title: "Jackie's Brickwork Patio", image: '/hdlandscaping/Jackie/Jackie Brickwork.jpg', slug: 'jackies-brickwork' },
+        { title: "Roger's Porcelain Patio", image: '/hdlandscaping/Roger/Roger1.jpg', slug: 'roger-patio' },
         { title: "Paving Stones", image: '/hdlandscaping/Paving Stones.jpg', slug: 'paving-stones' },
       ]
     };

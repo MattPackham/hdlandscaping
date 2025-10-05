@@ -1,8 +1,17 @@
 <template>
+ <section class="landing">
+  <div class="hero">
+   <div class="hero-content">
+     <!-- <h1>About Us</h1> -->
+      <p>Get to know more about Harry and Dean at HD Patios and Paving!</p>
+    </div>
+  </div>
+  </section>
   <section class="about">
-    <h2>About Us</h2>
+    <div>
+      <h2>About Us</h2>
     <p>
-      At <strong>HD Landscaping</strong>, we believe your outdoor space should feel 
+      At <strong>HD Patios and Paving</strong>, we believe your outdoor space should feel 
       like an extension of your home. For more than 15 years, we’ve been helping 
       homeowners and businesses bring their landscaping visions to life with a 
       perfect balance of creativity, functionality, and care.
@@ -13,11 +22,11 @@
       to make it happen. We take pride in our attention to detail, reliable 
       service, and the long-lasting relationships we build with our clients.
     </p>
-    <p>
+    <!-- <p>
       Want to see what we’ve been working on?  
       Visit our Facebook page to explore some of our latest projects and get inspired!
-    </p>
-    <p>
+    </p> -->
+    <!-- <p>
       <a 
         href="https://www.facebook.com/YourFacebookPage" 
         target="_blank" 
@@ -26,10 +35,10 @@
       >
         View Our Work on Facebook
       </a>
-    </p>
+    </p> -->
 
     <!-- Meet the Team -->
-    <div class="team">
+    <!-- <div class="team">
       <h3>Meet the Team</h3>
       <div class="team-members">
         <div class="team-member">
@@ -51,8 +60,9 @@
             delivered on time and with lasting results.
           </p>
         </div>
+      </div> 
+    </div>-->
       </div>
-    </div>
   </section>
 </template>
 
@@ -60,7 +70,6 @@
 .about {
   max-width: 900px;
   margin: 0 auto;
-  padding: 3rem 2rem;
   font-family: 'Arial', sans-serif;
   line-height: 1.7;
   color: #333;
@@ -140,4 +149,16 @@
   font-size: 1rem;
   color: #555;
 }
+
+.hero {
+  background: url('/hdlandscaping/Jake and Jen/Jake7.jpg') no-repeat center center/cover !important;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+}
+
 </style>

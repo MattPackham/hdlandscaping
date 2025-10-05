@@ -44,7 +44,7 @@ export default {
   data() {
     return {
       projectImages: [
-        { src: '/hdlandscaping/Jackie/Patio10-before.jpg', alt: 'Garden before work', caption: 'Before: uneven garden space' },
+     //   { src: '/hdlandscaping/Jackie/Patio10-before.jpg', alt: 'Garden before work', caption: 'Before: uneven garden space' },
         { src: '/hdlandscaping/Jackie/Jackie Flowerbed in progress.jpg', alt: 'Jackie Flowerbed in progress', caption: 'Jackie\'s flowerbed in progress' },
         { src: '/hdlandscaping/Jackie/Jackie Flowerbed.jpg', alt: 'Brickwork patio', caption: 'Flowerbed complete with plants' },
         { src: '/hdlandscaping/Jackie/Jackie Pathway (2).jpg', alt: 'Garden path', caption: 'Completed pathway and stairs' },
