@@ -9,25 +9,16 @@
     <div class="contact-info">
       <p>📞 Phone: <a href="tel:07801269799">07801269799</a></p>
       <p>✉️ Email: <a href="mailto:hdpatiosandpaving@gmail.com">hdpatiosandpaving@gmail.com</a></p>
-        <!-- <a 
-          href="https://www.facebook.com/YourFacebookPage" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          class="facebook-link"
-        >
-          Contact us on Facebook
-        </a> -->
-
     </div>
-       
-
 
     <!-- Contact Form -->
     <form @submit.prevent="submitForm" class="contact-form">
-      <input v-model="name" type="text" placeholder="Your Name" required />
-      <input v-model="email" type="email" placeholder="Your Email" required />
-      <textarea v-model="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
+      <input v-model="name" type="text" placeholder="Your Name" required :disabled="sent" />
+      <input v-model="email" type="email" placeholder="Your Email" required :disabled="sent" />
+      <textarea v-model="message" placeholder="Your Message" required :disabled="sent"></textarea>
+      <button type="submit" :disabled="sent">
+        {{ sent ? "Message Sent" : "Send Message" }}
+      </button>
     </form>
 
     <p v-if="statusMessage" class="status">{{ statusMessage }}</p>
@@ -43,7 +34,8 @@ export default {
       name: "",
       email: "",
       message: "",
-      statusMessage: ""
+      statusMessage: "",
+      sent: false, // <-- track if message was sent
     };
   },
   methods: {
@@ -63,9 +55,7 @@ export default {
         )
         .then(() => {
           this.statusMessage = "✅ Message sent! We'll get back to you soon.";
-          this.name = "";
-          this.email = "";
-          this.message = "";
+          this.sent = true; // <-- disable the form and button
         })
         .catch(() => {
           this.statusMessage = "❌ Oops! Something went wrong. Please try again later.";
@@ -74,6 +64,7 @@ export default {
   }
 };
 </script>
+
 
 <style scoped>
 .contact {
