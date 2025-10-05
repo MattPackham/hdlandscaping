@@ -18,7 +18,7 @@
     </p>
     <p>
       Whether you’re looking for a complete landscape design, seasonal 
-      maintenance, or a fresh update to your yard, our dedicated team is here 
+      maintenance, or a fresh update to your garden, our dedicated team is here 
       to make it happen. We take pride in our attention to detail, reliable 
       service, and the long-lasting relationships we build with our clients.
     </p>
@@ -159,6 +159,65 @@
   color: white;
   text-align: center;
 
+}
+
+
+
+/* 🌟 Mobile Styles */
+@media (max-width: 768px) {
+  .about {
+    padding: 1.5rem;
+    text-align: left;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  .hero {
+    height: 50vh;
+    padding: 0 1rem;
+    background-position: center top;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .team-members {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .team-member {
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+}
+
+/* 📱 Very small screens */
+@media (max-width: 480px) {
+  .about h2 {
+    font-size: 1.75rem;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+  }
+
+  .hero {
+    height: 45vh;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+  }
 }
 
 </style>

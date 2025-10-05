@@ -32,7 +32,7 @@
         <li>Designed and landscaped the space for beauty and function</li>
         <li>Installed a durable, stylish patio for outdoor living</li>
         <li>Added custom-built planters for greenery and structure</li>
-        <li>Seeded the lawn to bring fresh, vibrant grass</li>
+        <li>Layed a turf lawn to bring fresh, vibrant grass</li>
       </ul>
     </div>
   </section>
@@ -48,7 +48,7 @@ export default {
         { src: '/hdlandscaping/Jake and Jen/Landscaping Birdseye2.jpg', alt: 'Starting the project', caption: 'Creating room for the new planters' },
         { src: '/hdlandscaping/Jake and Jen/Harry Landscaping.jpg', alt: 'Installing the timber frames', caption: 'Installing the timber frames' },
         { src: '/hdlandscaping/Jake and Jen/Installing Flowerbed.jpg', alt: 'Flowerbed Timbers Installed', caption: 'Custom planters added' },
-        { src: '/hdlandscaping/Jake and Jen/Jake3.jpg', alt: 'New grass lawn', caption: 'Freshly seeded grass lawn with flowers planted' },
+        { src: '/hdlandscaping/Jake and Jen/Jake3.jpg', alt: 'New grass lawn', caption: 'Freshly added turf lawn with flowers planted' },
       ]
     };
   }
