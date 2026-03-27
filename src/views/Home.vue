@@ -37,11 +37,11 @@ export default {
           description: 'Create beautiful outdoor spaces with our patio and paving solutions.',
           link: '/services/patios',
         },
-        // {
-        //   title: 'Stonework & Brickwork',
-        //   description: 'Enhance your garden appeal with professionally installed slabwork, stonework or brickwork.',
-        //   link: '/services/brickwork',
-        // },
+        {
+          title: 'Stonework & Brickwork',
+          description: 'Enhance your garden appeal with professionally installed slabwork, stonework or brickwork.',
+          link: '/services/brickwork',
+        },
         {
           title: 'Garden Makeovers',
           description: 'Transform your garden into a serene retreat with our makeover services.',
