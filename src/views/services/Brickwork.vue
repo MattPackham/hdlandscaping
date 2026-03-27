@@ -46,6 +46,9 @@ export default {
       brickworkProjects: [
         // { title: 'Contemporary Brickwork Wall', image: '/hdlandscaping/BrickworkWall.jpg' , slug: 'contemporary-brickwork' },
         { title: 'Jackie\'s Brickwork', image: '/hdlandscaping/Jackie/Jackie Brickwork.jpg', slug: 'jackies-brickwork' },
+        { title: 'Roger\'s Brickwork', image: '/hdlandscaping/Roger/Roger Brickwork.jpg', slug: 'rogers-brickwork' },
+        { title: 'Matt\'s Brickwork', image: '/hdlandscaping/Matt/Matt Brickwork.jpg', slug: 'matts-brickwork' },
+
       ]
     };
   }
