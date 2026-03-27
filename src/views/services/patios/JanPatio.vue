@@ -1,10 +1,10 @@
 <template>
-  <section class="jim-lisa-patio-page">
+  <section class="jan-patio-page">
     <!-- Hero Section -->
     <div class="hero">
       <div class="hero-content">
-        <h1>Jim & Lisa's Patio Project</h1>
-        <p>A bespoke patio installed right outside their French doors. Jim & Lisa's new patio created the perfect link between indoor and outdoor living. Together with a new seating area feature perfect for eating outside.</p>
+        <h1>Jan's Patio Project</h1>
+        <p>A bespoke patio built to replace an old, worn-out patio. The fresh stone gives the garden a revitalised look.</p>
         <router-link to="/contact" class="cta-button">Start Your Project</router-link>
       </div>
     </div>
@@ -28,10 +28,10 @@
     <div class="info-section">
       <h2>How We Transformed This Garden</h2>
       <ul>
-        <li>Prepared the area directly outside the French doors</li>
+        <li>Removed the existing patio</li>
         <li>Laid a solid foundation for durability</li>
         <li>Installed a stylish, practical patio for everyday use</li>
-        <li>Created seamless access between the home and garden</li>
+        <li>Cut the stones and steps to integrate with the current lawn</li>
         <li>Finished with neat edging for a polished look</li>
       </ul>
     </div>
@@ -44,10 +44,13 @@ export default {
   data() {
     return {
       projectImages: [
-        { src: '/hdlandscaping/Jim and Lisa/Grey Paving 2.jpg', alt: 'Alley Patio', caption: 'Installed the new patio starting at the garden gate' },
-        { src: '/hdlandscaping/Jim and Lisa/Grey Paving.jpg', alt: 'Patio Continued', caption: 'Continuing the patio towards the French doors' },
-        { src: '/hdlandscaping/Jim and Lisa/Patio2.jpg', alt: 'Patio installation', caption: 'Adding the new step, and seating area' },
-        { src: '/hdlandscaping/Jim and Lisa/JimLisaPatio.jpg', alt: 'Finished patio', caption: 'Completed patio outside the French doors' },
+        { src: '/hdlandscaping/Jan/Jan 2 Edited.jpg', alt: 'Before', caption: 'The old patio before removal' },
+        { src: '/hdlandscaping/Jan/Jan 5.jpg', alt: 'Patio Continued', caption: 'Installing the steps' },
+        { src: '/hdlandscaping/Jan/JanPatio.jpg', alt: 'Patio Continued', caption: 'Finished patio construction' },
+        { src: '/hdlandscaping/Jan/Jan 1.jpg', alt: 'Patio Continued', caption: 'Sealed slabs for longevity' },
+        { src: '/hdlandscaping/Jan/Jan 4.jpg', alt: 'Patio Continued', caption: 'Complete patio' },
+
+
       ]
     };
   }
@@ -61,7 +64,7 @@ export default {
 
 /* Hero */
 .hero {
-  background: url('/hdlandscaping/Jim and Lisa/JimLisaPatio.jpg') no-repeat center center/cover !important;
+  background: url('/hdlandscaping/Jan/JanPatio.jpg') no-repeat center center/cover !important;
   height: 60vh;
   display: flex;
   justify-content: center;
