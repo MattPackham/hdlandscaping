@@ -11,6 +11,7 @@
 
     <div :class="['nav-links', { open: isOpen }]">
       <router-link to="/" @click.native="closeMenu">Home</router-link>
+      <router-link to="/gallery" @click.native="closeMenu">Gallery</router-link>
       <router-link to="/about" @click.native="closeMenu">About</router-link>
       <router-link to="/contact" @click.native="closeMenu">Contact Us</router-link>
     </div>

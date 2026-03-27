@@ -166,7 +166,7 @@
 /* 🌟 Mobile Styles */
 @media (max-width: 768px) {
   .about {
-    padding: 1.5rem;
+    padding: 0.5rem;
     text-align: left;
   }
 
@@ -179,7 +179,7 @@
   }
 
   .hero {
-    height: 50vh;
+    height: 30vh;
     padding: 0 1rem;
     background-position: center top;
   }
@@ -215,7 +215,7 @@
   }
 
   .hero {
-    height: 45vh;
+    height: 25vh;
   }
 
   .hero-content p {
