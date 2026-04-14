@@ -22,6 +22,10 @@
       to make it happen. We take pride in our attention to detail, reliable 
       service, and the long-lasting relationships we build with our clients.
     </p>
+
+     <p>
+      We operate around the Portishead, Clevedon, Nailsea, Weston-super-Mare, and Bristol areas.
+    </p>
     <!-- <p>
       Want to see what we’ve been working on?  
       Visit our Facebook page to explore some of our latest projects and get inspired!
